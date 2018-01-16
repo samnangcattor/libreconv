@@ -17,7 +17,7 @@ module Libreconv
       @source = source
       @target = target
       @soffice_command = soffice_command
-      @convert_to = convert_to || "pdf"
+      @convert_to = convert_to || "doc"
       determine_soffice_command
       check_source_type
 
